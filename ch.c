@@ -1,7 +1,11 @@
 #include <stdio.h>
+void function()
+{
+printf("I am just doing it for fun.....\n");
+  printf("%s",__DATE__);
 int main()
 {
-printf("This is a file\n");
-printf("This is a hello\n");
+function();
+  printf("Thanks for visiting\n");
 return 0;
 }
